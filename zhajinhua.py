@@ -12,7 +12,6 @@ from xmlrpc.client import TRANSPORT_ERROR
 from PIL import Image
 from httpx import AsyncByteStream
 from hoshino import Service, priv
-from hoshino.modules.mgss.mengguisushe import coin
 from hoshino.typing import CQEvent
 from hoshino.util import DailyNumberLimiter
 import copy
